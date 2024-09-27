@@ -1,13 +1,25 @@
 #include <iostream>
 using namespace std;
 /*
+  HI my name is Atif i am a student of CS Major and this is one of my mini project i hope you will like its feel free to suggest any changes possible to make this program better!
+  Its just a simple vending machine program.
+  Pseudo code :
+  Step 1 : declare DOLLER_MOUNT = 277,total,food_choice,payback,payments.
+  Step 2: Display the menue to the user.
+  Step 3: Ask user for food he/she wants.
+  Step 4:Display the food name i.e "You got cola".
+  Step 5:Ask user if they want some thing more
+          if user is willing to buy another product then goto Step 3.
+  Step 6:Ask the user about the payment method they would like to choose.
+  Step 7:Ask for the payment and input the payment.
+  Step 8: Dsplay the payback money.
+  
  */
 int main()
 {
-  //   cons1 = 5000, cons2 = 1000, cons3 = 500, cons4 = 100, cons5 = 50, cons6 = 20, cons7 = 10, 
     const int DOLLER_AMOUNT = 277;
     int food_choice, total = 0, payback = 0;
-    bool cond = true;
+    bool cond = true; 
     short int ch_price = 50, co_prize = 40, bir_price = 70;
     char currency;
     float payments;
